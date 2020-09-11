@@ -1,0 +1,19 @@
+ <div class="card card-inverse card-info">
+                    <img class="card-img-top" src="https://picsum.photos/200/150/?random">
+                    <div class="card-block">
+                        <figure class="profile">
+                            <img src="https://picsum.photos/200/150/?random" class="profile-avatar" alt="">
+                        </figure>
+                        <h4 class="card-title mt-3">{{rental.title}}</h4>
+                        <div class="meta card-text">
+                            <a>{{rental.category}}</a>
+                        </div>
+                        <div class="card-text">
+                            {{rental.description}}
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small>{{rental.city}}</small>
+                        <a routerLink="/rentals/{{rental.id}}"><button class="btn btn-info float-right btn-sm">Read more</button></a>
+                    </div>
+                </div>

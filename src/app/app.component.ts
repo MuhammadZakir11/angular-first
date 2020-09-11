@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Zakir';
-  name="zalir";
+  name="zakir";
 
   clickHandler(){
   alert("clicked");
